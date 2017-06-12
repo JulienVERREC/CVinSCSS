@@ -1,0 +1,151 @@
+body{
+	font-size: 18px;
+	margin: 0;
+	width: 100%;
+}
+
+.container{
+	display:flex;
+}
+
+.left{
+	height: 160vh;
+	width: 20%;
+	background:$third-color; 
+	li{
+		list-style: none;
+		margin-top: 30%;
+		margin-left: 18%;
+		i{
+			color:$primary-color;
+			margin: 10%;
+		}		
+	}
+}
+
+.contact{
+	font-family: 'Julius Sans One', sans-serif;
+	text-align: center;
+	color: $fourth-color;
+	padding-top: 28%;
+}
+
+.line2{
+	margin: 30%;
+	margin-left: 38%;
+	background-color: white;
+	height: 1px;
+	width: 50px;
+	display: block;
+	
+}
+
+.right{
+	height: 100vh;
+	width: 80%;
+}
+
+.right{
+	padding-top: 3%;
+	 li{
+
+	font-family: 'Julius Sans One', sans-serif;
+	text-align: center;
+	list-style: none;
+	color: $fifth-color;
+	 }
+	 p{
+	font-family: 'Quattrocento Sans', sans-serif;
+	padding-left: 3%;
+	color: $fourth-color;
+	}
+	h3{
+	font-family: 'Julius Sans One', sans-serif;
+	color: $fourth-color;
+	text-align: center;
+	margin: 5%;
+	}
+}
+
+.email{
+	font-size: 90%;
+}
+
+.coord{
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 14px;
+}
+
+.simplon{
+	text-align: center;
+	margin-top: 10%;
+}
+
+.dropdown {
+    position: relative;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #3D3735;
+    color: white;
+    text-align: center;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown2 {
+    position: relative;    
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #3D3735;
+    color: white;
+    text-align: center;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+.dropdown3 {
+    position: relative;
+    
+}
+
+.dropdown-content3 {
+    display: none;
+    position: absolute;
+    background-color: #3D3735;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown3:hover .dropdown-content3 {
+    display: block;
+}
+
+.hobbies{
+	margin-right: 4%;
+	li{
+	font-family: 'Quattrocento Sans', sans-serif; 
+	}
+}
