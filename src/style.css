@@ -1,67 +1,83 @@
 header {
   background-color: #3D3735;
-  height: 200px; }
+  height: 200px; 
+}
   header h1 {
     font-family: 'Julius Sans One', sans-serif;
     font-size: 45px;
     color: #F5F3F3;
     text-align: center;
     padding-top: 4%;
-    margin: 0px; }
+    margin: 0px; 
+  }
   header h3 {
     font-family: 'Julius Sans One', sans-serif;
     font-size: 20px;
     padding-top: 2%;
     color: #F5F3F3;
-    text-align: center; }
+    text-align: center; 
+  }
 
 .picture {
   height: 100vh;
   width: 20%;
   background: #3D3735;
-  text-align: center; }
+  text-align: center;
+}
 
 .name {
   height: 100vh;
-  width: 80%; }
+  width: 80%; 
+}
 
 .photo {
   width: 60%;
-  height: 25%;
-  margin-top: 5%; }
+  height: auto;
+  
+  margin-top: 3%;
+}
+  
+
 
 .line1 {
   margin-left: 42%;
   background-color: white;
   height: 1px;
   width: 150px;
-  margin-top: 2%; }
+  margin-top: 2%; 
+}
 
 body {
   font-size: 18px;
   margin: 0;
-  width: 100%; }
+  width: 100%; 
+}
 
 .container {
-  display: flex; }
+  display: flex; 
+}
 
 .left {
   height: 160vh;
   width: 20%;
-  background: #DFBBA4; }
+  background: #DFBBA4; 
+}
   .left li {
     list-style: none;
     margin-top: 30%;
-    margin-left: 18%; }
+    margin-left: 18%; 
+  }
     .left li i {
       color: #3D3735;
-      margin: 10%; }
+      margin: 10%; 
+    }
 
 .contact {
   font-family: 'Julius Sans One', sans-serif;
   text-align: center;
   color: #6C6561;
-  padding-top: 28%; }
+  padding-top: 28%; 
+}
 
 .line2 {
   margin: 30%;
@@ -69,42 +85,54 @@ body {
   background-color: white;
   height: 1px;
   width: 50px;
-  display: block; }
+  display: block; 
+}
 
 .right {
   height: 100vh;
-  width: 80%; }
+  width: 80%; 
+}
 
 .right {
-  padding-top: 3%; }
+  padding-top: 3%; 
+}
   .right li {
     font-family: 'Julius Sans One', sans-serif;
     text-align: center;
     list-style: none;
-    color: #463B34; }
+    color: #463B34; 
+  }
   .right p {
     font-family: 'Quattrocento Sans', sans-serif;
     padding-left: 3%;
-    color: #6C6561; }
+    color: #6C6561;
+    text-align: center;
+  }
+
   .right h3 {
     font-family: 'Julius Sans One', sans-serif;
     color: #6C6561;
     text-align: center;
-    margin: 5%; }
+    margin: 5%; 
+  }
 
 .email {
-  font-size: 90%; }
+  font-size: 90%; 
+}
 
 .coord {
   font-family: 'Julius Sans One', sans-serif;
-  font-size: 14px; }
+  font-size: 14px; 
+}
 
 .simplon {
   text-align: center;
-  margin-top: 10%; }
+  margin-top: 10%; 
+}
 
 .dropdown {
-  position: relative; }
+  position: relative; 
+}
 
 .dropdown-content {
   display: none;
@@ -115,13 +143,16 @@ body {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   padding: 12px 16px;
-  z-index: 1; }
+  z-index: 1; 
+}
 
 .dropdown:hover .dropdown-content {
-  display: block; }
+  display: block; 
+}
 
 .dropdown2 {
-  position: relative; }
+  position: relative; 
+}
 
 .dropdown-content2 {
   display: none;
@@ -132,13 +163,16 @@ body {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   padding: 12px 16px;
-  z-index: 1; }
+  z-index: 1; 
+}
 
 .dropdown2:hover .dropdown-content2 {
-  display: block; }
+  display: block; 
+}
 
 .dropdown3 {
-  position: relative; }
+  position: relative; 
+}
 
 .dropdown-content3 {
   display: none;
@@ -150,14 +184,18 @@ body {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   padding: 12px 16px;
-  z-index: 1; }
+  z-index: 1; 
+}
 
 .dropdown3:hover .dropdown-content3 {
-  display: block; }
+  display: block; 
+}
 
 .hobbies {
-  margin-right: 4%; }
+  margin-right: 4%; 
+}
   .hobbies li {
-    font-family: 'Quattrocento Sans', sans-serif; }
+    font-family: 'Quattrocento Sans', sans-serif; 
+  }
 
 /*# sourceMappingURL=style.css.map */
